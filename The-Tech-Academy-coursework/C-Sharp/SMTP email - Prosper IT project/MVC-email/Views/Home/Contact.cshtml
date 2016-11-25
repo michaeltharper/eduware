@@ -1,0 +1,28 @@
+﻿@model Bmail.Models.ContactModels
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Send via email</h1>
+@using (Html.BeginForm())
+{
+    <div class="row">
+        @Html.LabelFor(model => model.Name, "Name")
+        @Html.EditorFor(model => model.Name)
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+    <div class="row">
+        @Html.LabelFor(model => model.Email, "Email")
+        @Html.EditorFor(model => model.Email)
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+    <div class="row">
+        @Html.LabelFor(model => model.Essay, "Essay")
+        @Html.EditorFor(model => model.Essay)
+        @Html.ValidationMessageFor(model => model.Essay)
+    </div>
+    <div class="row">
+        <input type="submit" valiue="submit" />
+        <input type="reset" valiue="reset" />
+    </div>
+}
