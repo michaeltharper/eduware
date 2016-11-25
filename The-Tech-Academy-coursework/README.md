@@ -1,7 +1,9 @@
 ### Course Work from The Tech Academy
 ***
 
-Drills, projects and coding challenges from school work at The Tech Academy. If you would like to see a collection of coding examples that demonstrate my skills and problem solving with software development, please visit my [portfolio](https://github.com/michaeltharper/tta) on GitHub.
+Drills, projects and coding challenges from school work at The Tech Academy. 
+
+Please visit my portfolio site [harperdev.com](http://harperdev.com) for additional front-end development work.
 
 ### Courses
 * [C#](./C-Sharp)
