@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><!-- helps speech synthesis -->
+<head><!-- start of content -->
+<meta charset="UTF-8">
+<title>News</title>
+<link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body>
+
+<header class="banner"> <!-- used to group elements used for introductory content. -->
+
+<h1>NEWS</h1><!-- main title, page title. -->
+<p>Local and National News</p>
+</header>
+
+<nav><!--  indicates main navigation, for screen readers -->
+<ul>
+	<li><a href="#"  title="Home">Home</a></li>
+	<li class="navclick"><a href="#" title="Archives" >Archives</a>
+	<ul class="navitem">
+		<li><a href="2015.html" title="2015 projects">2015 projects</a></li>
+		<li><a href="2014.html" title="2014 projects">2014 projects</a></li>
+		<li><a href="2013.html" title="2013 projects">2013 projects</a></li>
+	</ul>
+	</li>
+	<li><a href="#">About</a></li>
+</ul>
+</nav>
+
+
+
+<main>
+
+<section> <!-- groups together a generic block of related content. -->
+	<h2>LOCAL NEWS</h2>
+
+	<article><!-- A complete, self-contained composition -->
+		<header><!-- Good to start an article tag with -->
+			<h1>Fireman rescues people</h1>
+			<p>author, date</p>
+		</header>
+		<p>This is the story, may have several paras</p>
+	</article>
+
+	<article><!-- A complete, self-contained composition -->
+		<header><!-- Good to start an article tag with -->
+			<h1>New library to be built.</h1>
+			<p>author, date</p>
+		</header>
+		<p>This is the story, may have several paras</p>
+	</article>
+
+</section>
+
+<section><!-- Another generic block of related content. -->
+
+	<h2>NATIONAL NEWS</h2>
+
+	<article><!-- A complete, self-contained composition -->
+		<header><!-- Good to start an article tag with -->
+			<h3>Weather is making travel difficult</h3>
+			<p>author, date</p>
+		</header>
+		<p>This is the story, may have several paras</p>
+	</article>
+
+	<article><!-- A complete, self-contained composition -->
+		<header><!-- Good to start an article tag with -->
+			<h3>Thousands are without croutons</h3>
+			<p>author, date</p>
+		</header>
+		<p>This is the story, may have several paras</p>
+	</article>
+
+
+</section>
+</main>
+
+<!-- 
+ASIDE FLOATED IN CSS.  
+FOOTER IS CLEARED TO RETURN IT TO FLOW 
+aside {  float: right; }
+footer {  clear: both; }
+-->
+
+<aside>
+<!-- Sidebar content separate from but related to content around it.
+If inside an article tag, should be specifically related to that article.
+If outside the article tag, means it relates to the webpage as a whole. 
+Often in a side column via CSS, but doesn't have to be - can also indicate groups of ads or nav elements.
+-->
+	<h2>Be a news reporter</h2>
+	<p>If you see news happening, txt us...</p>
+</aside>
+
+<!-- This is footer for whole body area. 
+Can also go at end of an article tag, as summary area -->
+<footer>
+Copyright, links to relevant offsite links, contact info, ref nav.
+</footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+
+</body>
+</html>
+
+
+
