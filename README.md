@@ -1,4 +1,8 @@
 # eduware
-Examples from education
+Solved code challenges and coursework
 
-[Software development coursework](./The-Tech-Academy-coursework) in C#, Python, SQL, JavaScript, etc. from the [The Tech Academy](http://learncodinganywhere.com) in Portland, Oregon.
+[The Tech Academy](./The-Tech-Academy-coursework) coursework in C#, Python, SQL and JavaScript. 
+
+Education sources:<br>
+[The Tech Academy](http://learncodinganywhere.com) in Portland, Oregon.<br>
+[Treehouse](https://teamtreehouse.com/michaelharper4) online tutorials.
