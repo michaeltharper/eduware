@@ -1,9 +1,9 @@
 ### Database & SQL Course Work
 ***
 
-This is my course work for Database & SQL, both following along drill work as well as my own solutions to assignment.
+This section contains SQL Server code for the public library system for a small town:
 
-If you would like to see only my own solutions to software challenges, please check out my GitHub portfolio of my work with readme files detailing how I solved each one.
+![ER diagram](./7.30-ER-diagram.jpg?raw=true)
 
-Return to course work [main page](../../../) 
+Return to course work [main page](http://github.com/michaeltharper) 
 
