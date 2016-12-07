@@ -1,25 +1,6 @@
-### Eduware
+### jQuery Animsition demo
 ***
-Examples from education and tutorials
 
-<!--- #### HTML & CSS
-* [HTML & CSS  Examples](./HTML-CSS)
-* [CSS Login Drill](./HTML-CSS/CSS-Login-Drill)
+[See demo](http://pdx9.com/code/treehouse-FSJS/4.0-jQuery-plugins/)
 
-#### JavaScript
-* [JavaScript Examples](./JavaScript)
-* [Login Script Drill](./JavaScript/Login-Script-Drill)
-
-
-#### Database & SQL
-* [Database & SQL Examples](./Database-SQL)
-* [City Library Drill](./Database-SQL/City-Library-Drill)
-
-#### Python
-* [Python Examples](./Python)
-* [Datetime Drill](./Python/Datetime-Drill)
-
-#### C#  
-* [C# Examples](./C-Sharp)
-* [File Transfer Drill](./C-Sharp/File-Transfer-Drill)
--->
+[Return to Eduware](./eduware)
