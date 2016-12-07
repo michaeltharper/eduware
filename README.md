@@ -1,5 +1,6 @@
-# jQuery animsition plugin
+# eduware
 
-[See demo](http://pdx9.com/code/treehouse-FSJS/4.0-jQuery-plugins/)
+[The Tech Academy](./The-Tech-Academy) coursework in C#, Visual Studio, SQL, Python and JavaScript.
 
-Back to [Treehouse-Full-Stack-JavaScript](./Treehouse-Full-Stack-JavaScript) coursework in JavaScript, jQuery, NodeJS.
+[Treehouse-Full-Stack-JavaScript](./Treehouse-Full-Stack-JavaScript) coursework in JavaScript, jQuery, NodeJS.
+
