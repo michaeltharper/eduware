@@ -1,6 +1,6 @@
 ### jQuery Animsition demo
 ***
 
-[See demo](http://pdx9.com/code/treehouse-FSJS/4.0-jQuery-plugins/)
+[See Animsition plugin demo](http://pdx9.com/code/treehouse-FSJS/4.0-jQuery-plugins/)
 
-[Return to Eduware](./eduware)
+[Return to Eduware](https://github.com/michaeltharper/eduware/)
