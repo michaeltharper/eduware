@@ -1,0 +1,86 @@
+body {
+  color: #232;
+  font-family: "Varela Round";
+  text-align: center;
+  background: #e0e9e0;
+  font-size: 16px; }
+
+a {
+  color: #363;
+  text-decoration: none; }
+
+ a:hover {
+    color: #484; }
+
+.list {
+  background: #fff;
+  width: 50%;
+  min-width: 360px;
+  margin: 0 auto;
+  xborder-top: 40px solid #565;
+  text-align: left;
+  border-radius: 8px; }
+
+.list .item {
+  border-bottom: 2px solid #efe;
+  min-width: 360px;
+  padding: 17px 0 18px 17px; }
+
+.list .item label {
+  padding-left: 5px;
+  cursor: pointer; 
+  display: inline-block;
+  max-width: 300px!important; }
+
+.list .item .editing-label {
+  margin-left: 5px;
+  font-family: "Varela Round";
+  border-radius: 2px;
+  border: 2px solid #aba;
+  font-size: 16px;
+  padding: 15px 0 15px 10px;
+  width: 60%; }
+
+.list .item .actions {
+  float: right;
+  margin-right: 20px; }
+
+.list .item .actions .delete {
+  color: #eaa;
+  margin-left: 10px; }
+
+.list .item .actions .delete:hover {
+  color: #f88; }
+
+.list .item.editing-item .actions {
+  margin-top: 17px; }
+
+.list .edited label:after {
+    content: " edited";
+    text-transform: uppercase;
+    color: #aba;
+    font-size: 14px;
+    padding-left: 5px; }
+
+.list .completed label {
+    color: #aba;
+    text-decoration: line-through; }
+
+.list .add, .list .add a {
+    padding: 0 0 15px 8px; 
+	color: #585; }
+
+input[type="checkbox"] {
+    display:none; }
+
+input[type="checkbox"] + span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(checkbox-empty.svg) left top no-repeat;
+    cursor:pointer; }
+
+input[type="checkbox"]:checked + span {
+    background:url(checkbox-filled.svg) left top no-repeat; }
