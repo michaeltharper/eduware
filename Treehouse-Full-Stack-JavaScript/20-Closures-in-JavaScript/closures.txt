@@ -1,0 +1,84 @@
+https://teamtreehouse.com/library/what-are-closures  
+
+
+A closure is a function with its own private store of variables that no other function knows about or can access. You can create any number of closures. even with the same variable name contained within each one of them. That's because the variables are hidden from all other functions. 
+
+Let's walk through the steps of creating a closure now. Open up the workspace with this video to follow along. Here's a simple function, doghouse:
+
+
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Closure Example</title>
+	</head>
+	<body>
+		<script type="text/javascript" src="closure.js"></script>
+	</body>
+	</html>
+
+
+closure.js
+------------------------
+
+	var cats = 3;
+
+	function dogHouse() {
+		var dogs = 8;
+		console.log(cats); // 3
+		console.log(dogs); // 8
+	}
+
+		console.log(cats); // 3
+		console.log(dogs); // undef
+
+
+
+
+Like any function in JavaScript, doghouse can see variables declared outside of itself in the global scope, as well as any variables declared inside in the local scope. However variables inside functions are not visible outside. If we log birds and dogs within the function we can read both variables:
+
+		console.log(cats); // 3
+		console.log(dogs); // 8
+
+...but logging them outside the function, we see that dogs isn't defined. 
+
+		console.log(cats); // 3
+		console.log(dogs); // undef
+
+Using the local scope that functions provide is what we can use to create closures. You may not know this, but you can declare a function inside another function. Let's use two functions together, declaring a function called showDogs within our dogHouse function:
+
+	var cats = 3;
+
+	function dogHouse() {
+		var dogs = 8;
+		function showDogs(){
+			console.log(dogs); // 8
+		}
+		return showDogs;  //   pointer, no () execution
+	}
+
+
+
+The showDogs function is called an inner function because it's inside another function. The dog house function is called an outer function. All variables within the outer function are visible to the inner function, even though they are hidden from the global scope. Just like the outer function has access to the global variables, the inner function has access to the outer function scope. Right now the dogs variable is declared in the outer function and the inner function has access to it. If the inner function is returned... and is assigned to a variable... The private scope of the outer function lives on and remains in the program's memory. 
+
+In other words we can call the returned inner function and get access or even modify any private variables. A closure looks like this, an outer function, some private variables within the outer function scope, an inner function that could modify or log out, any of the private variables, and finally the inner function is returned. Every time the outer function is called a new private scope is created and the inner function returned can read and modify any private variables for this new private scope. This new scope is separate from any closures the outer function has created previously.
+
+++++++++++++++++
+
+If you do something like this:
+
+	function dogHouse() {
+	  var dogs = 8;
+	  function showDogs () {
+	      function showMoreDogs () {
+	      	console.log(dogs);
+	        return;
+	      }
+	    return showMoreDogs;
+	  }
+	  return showDogs;
+	}
+
+	var getDogs = dogHouse();
+
+You will need to write getDogs()() or dogHouse()()() to run the innermost function and retrieve the value 8 in the console.
