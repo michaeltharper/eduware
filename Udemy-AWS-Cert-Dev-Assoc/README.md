@@ -12,4 +12,4 @@ Configure a CloudFront CDN to mirror original content at origin s3.eu-west-2.ama
 http://d1c379f1fyll7g.cloudfront.net/dance.jpg
 
 Set up Elastic Beanstalk instance:<br>
-sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com](http://sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com/)
+[sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com](http://sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com/)
