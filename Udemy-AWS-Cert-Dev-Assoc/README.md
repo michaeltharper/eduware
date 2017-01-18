@@ -8,8 +8,10 @@ EC2 instance w PHP SDK installed:<br>
 Static HTTP landing page on S3:<br>
 [s3-us-west-2.amazonaws.com/staticsite529/index.html](https://s3-us-west-2.amazonaws.com/staticsite529/index.html)
 
-Configure a CloudFront CDN to mirror original content at origin s3.eu-west-2.amazonaws.com/penny-farthing/dance.jpg<br>
-http://d1c379f1fyll7g.cloudfront.net/dance.jpg
+Configure a CloudFront CDN to mirror original content at origin 
+s3.eu-west-2.amazonaws.com/penny-farthing/dance.jpg<br>
+d1c379f1fyll7g.cloudfront.net/dance.jpg<br>
+(offline for now, burns too many cycles)
 
 Set up Elastic Beanstalk instance:<br>
 [sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com](http://sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com/)
