@@ -15,3 +15,6 @@ d1c379f1fyll7g.cloudfront.net/dance.jpg<br>
 
 Set up Elastic Beanstalk instance:<br>
 [sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com](http://sample-env.jby3ynnkqz.us-west-2.elasticbeanstalk.com/)
+
+Public subnet on Virtual Private Cloud:
+[35.161.178.171/](http://35.161.178.171/)
